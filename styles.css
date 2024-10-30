@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  #app {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-device, .add-node, .device-actions, .node-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .device-item, .node-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .node-list {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  

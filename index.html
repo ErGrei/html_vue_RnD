@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device List Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Список устройств и узлов учета</h1>
+    
+    <!-- Форма для добавления нового устройства -->
+    <div class="add-device">
+      <input id="newDeviceInput" type="text" placeholder="Название устройства">
+      <button onclick="addDevice()">Добавить устройство</button>
+    </div>
+
+    <!-- Контейнер для списка устройств -->
+    <div id="deviceList"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
